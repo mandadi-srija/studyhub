@@ -1,0 +1,127 @@
+/* General Styles */
+.collaboration-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+  }
+  
+  html{
+    background-color: #d5e7fd;
+  }
+
+
+  /* Header Styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #d5e7fd;
+  }
+  
+  .hero-content {
+    max-width: 500px;
+    margin-left: 95px;
+    margin-top: 50px;
+  }
+  
+  .hero h1 {
+    font-size: 5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .image-style
+  {
+    width: 700px;
+  }
+
+  /* Button Styles */
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .trial-btn,
+  .get-started-btn {
+    padding: 15px 28px;
+    margin: 5px 5px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .trial-btn {
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  .get-started-btn {
+    background-color: #007bff;
+    color: white;
+    font-size: 23px;
+  }
+  
+  /* Pie Chart Styles */
+  .pie-chart {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: conic-gradient(
+      #ffbb54 0% 33%,
+      #4ac2ff 33% 66%,
+      #ff725e 66% 100%
+    );
+  }
+  
+  .segment {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+  }
+  
+  .segment1 .icon,
+  .segment2 .icon {
+    font-size: 2em;
+  }
+  
+  /* Adjust segment positions */
+  .segment1 { transform: rotate(15deg); }
+  .segment2 { transform: rotate(120deg); }
+  .segment3 { transform: rotate(230deg); }
+  

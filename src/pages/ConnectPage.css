@@ -1,0 +1,41 @@
+/* src/pages/ConnectPage.css */
+.profile-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .profile-card p {
+    font-size: 1em;
+    color: #555;
+  }
+
+ .connect-btn,.message-btn
+ {
+    border-radius: 20px;
+    padding: 7px 20px;
+    margin: 17px 16px;
+    font-size: 19px;
+    background-color: rgb(69 69 223);
+ }
+
+ .profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px;
+ }
+
+ .msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+  
+ 
+  

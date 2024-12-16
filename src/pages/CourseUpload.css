@@ -1,0 +1,52 @@
+.course-upload-page {
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f9;
+  }
+  
+  .course-upload-page h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .course-upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .course-upload-form label {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .course-upload-form input,
+  .course-upload-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .upload-btn {
+    background-color: #61dafb;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .upload-btn:hover {
+    background-color: #282c34;
+    color: white;
+  }
+  

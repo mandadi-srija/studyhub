@@ -1,0 +1,30 @@
+.home {
+    padding: 20px;
+    background-color: #f4f4f9;
+  }
+  
+  .courses-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+  }
+  
+  @media (max-width: 1200px) {
+    .courses-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .courses-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .courses-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
